@@ -1,0 +1,35 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+**/*.env
+**/*.pem
+**/*.key
+**/*.pfx
+**/*.p12
+**/*.token
+**/*credential*
+**/*credentials*
+**/*secret*
+**/*token*
+config/*
+
+# Local state, reports, and caches
+.handoff/
+.codex/
+.agents/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.tmp
+*.temp
+*.bak
+*.orig
+logs/
+
+# Generated build output
+build/*.exe
+build/*.dll
+build/*.msi
+build/*.zip
+dist/
